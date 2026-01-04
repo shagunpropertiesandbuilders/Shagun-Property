@@ -9,7 +9,9 @@
   cursor: pointer;
 
 }
-
+@media (max-width: 768px) {
+  /* CSS rules for screens smaller than 768px */
+}
 a{
   color: rgb(19, 14, 14);
   text-decoration: none;
@@ -281,4 +283,5 @@ img {vertical-align: middle;}
     background-color: #202020;
     padding-top: 15px;
     overflow-y: auto;
+
 }
